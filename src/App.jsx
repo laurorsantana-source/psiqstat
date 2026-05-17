@@ -1092,7 +1092,7 @@ function PainelAnalitico() {
                 <div style={{ background:T.border, borderRadius:3, height:14, overflow:"hidden" }}>
                   <div style={{ width:`${(r.taxa/60)*100}%`, height:"100%", background:cor, borderRadius:3 }} />
                 </div>
-                <div style={{ fontSize:10, color:T.textMuted, marginTop:2 }}>Tempo médio resposta: {r.tempoH}h | Resolvidas em <24h: {r.pct24h}%</div>
+                <div style={{ fontSize:10, color:T.textMuted, marginTop:2 }}>Tempo médio resposta: {r.tempoH}h | Resolvidas em menos de 24h:: {r.pct24h}%</div>
               </div>
             );
           })}
